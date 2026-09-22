@@ -1,0 +1,4 @@
+nombre = "abraham"
+Apellido = "vargas"
+Resultado = (nombre + ' ' + ' ' + Apellido)
+print (Resultado)
