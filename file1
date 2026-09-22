@@ -1,4 +1,10 @@
 nombre = "abraham"
 Apellido = "vargas"
-Resultado = (nombre + ' ' + ' ' + Apellido)
+Resultado = (nombre + ' ' + Apellido)
 print (Resultado)
+
+num  = 23
+num2 = 50
+
+Total = (num + num2)
+print (Total)
