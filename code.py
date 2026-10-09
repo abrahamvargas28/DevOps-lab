@@ -8,8 +8,6 @@ opcion = input("Seleccione una opción (1 o 2 o 3): ")
 
 numero1 = float(input("Ingrese el primer número: "))
 numero2 = float(input("Ingrese el segundo número: "))
-numero3 = float(input("Ingrese el tercer numero número: "))
-numero4 = float(input("Ingrese el Cuarto  numero número: "))
 
 if opcion == "1":
     resultado = numero1 + numero2
