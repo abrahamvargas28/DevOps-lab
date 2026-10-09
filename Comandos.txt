@@ -1,0 +1,35 @@
+# Agregar archivos
+git add .
+# Crear tu primer commit
+gi commit -m "commit"
+# Si git te pide configurar tu correo  o tu nombre
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu-correo@email.com"
+# conectar tu proyecto a github
+git remote add origin https://github.com/TU-USUARIO/calculadora-python.git
+# para verificarlo
+git remote -v
+
+Diferencia entre git pull y pull request
+
+Git pull, fetch, merge: trae los cambios a local y los va a fusionar con la rama main . accion basica de Git
+pull request: Solicitud para extraer los cambios de una rama hacia otra, pueden ser ramas en el mismo repositorio o en distintos.
+Permite que los colaboradores del proyecto revisen, comenten y actualicen el codigo es especialmente de github.
+
+WEBHOOK que es?
+- Es una llamada posterior a su aplicacion, como jenkins, si el repositorio cambia, podran determinar que tipo de cambios
+ lo activaran.
+ - es liviano
+ - y en tiempo real
+
+Rama:Main (Trunk)
+Rama: feature1
+Caractaristicas
+- Ramas de Caractaristicas que viven poco y con pocos commits
+- Produccion de lanzamiento fluida
+- Feature flag: para una caracteristica no codificada completamente.
+- Cambios pequenos y frecuentes.
+
+Trunk: Practica de gestion de control de versiones donde los desarrolladores fusionan pequenas actualizaciones frecuentes a la rama main.
+
+revertir cambios con git revert.
