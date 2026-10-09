@@ -33,3 +33,11 @@ Caractaristicas
 Trunk: Practica de gestion de control de versiones donde los desarrolladores fusionan pequenas actualizaciones frecuentes a la rama main.
 
 revertir cambios con git revert.
+
+git revert 
+
+git commit -m "Agrego archivos y actualizo ejercicios"
+
+git pull --rebase origin main
+
+git push origin main
